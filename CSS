@@ -3,44 +3,125 @@ table{
 	height: 500px;
 	margin: auto;
 	padding: 0px;
-}
-
-
-
-#s1{
-  background-color: green;
   
 }
 
 
+#s1{
+  border: 1px solid black;
+  background-color: green;
+  animation-name: s1;
+  animation-duration: 8s;
+}
+
+
 #s2{
+  border: 1px solid black;
   background-color: white;
+  animation-name : s2;
+  animation-duration: 8s;
 }
 
 #s3{
+  border: 1px solid black;
   background-color: red;
+  animation-name : s3;
+  animation-duration: 8s;
 }
 
 #s4{
+  border: 1px solid black;
   background-color: green;
+  animation-name : s4;
+  animation-duration: 8s;
 }
 
 #s5{
+  border: 1px solid black;
   background-color: white;
+  animation-name : s5;
+  animation-duration: 8s;
+  
 }
 
 #s6{
-   background-color: red;
+  border: 1px solid black;
+  background-color: red;
+  animation-name : s6;
+  animation-duration: 8s;
 }
 
 #s7{
+  border: 1px solid black;
   background-color: green;
+  animation-name : s7;
+  animation-duration: 8s;
 }
 
 #s8{
+  border: 1px solid black;
   background-color: white;
+  animation-name : s8;
 }
 
 #s9{
+  border: 1px solid black;
    background-color: red;
+  animation-name : s9;
+}
+
+@keyframes s1{
+  0% {background-color: green;}
+  25% {background-color: red;}
+  50% {background-color: white;}
+  75% {background-color: blue;}
+  100% {background-color: green;}
+}
+
+@keyframes s2{
+  0% {background-color: white;}
+  25% {background-color: red;}
+  50% {background-color: white;}
+  75% {background-color: white;}
+  100% {background-color: white;}
+}
+
+@keyframes s3{
+  0% {background-color: red;}
+  25% {background-color: red;}
+  50% {background-color: white;}
+  75% {background-color: red;}
+  100% {background-color: red;}
+}
+
+@keyframes s4{
+  0% {background-color: green;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: blue;}
+  100% {background-color: green;}
+}
+
+@keyframes s5{
+  0% {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: white;}
+  100% {background-color: white;}
+}
+
+@keyframes s6{
+  0% {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: red;}
+  100% {background-color: red;}
+}
+
+@keyframes s7{
+  0% {background-color: green;}
+  25% {background-color: red;}
+  50% {background-color: red;}
+  75% {background-color: blue;}
+  100% {background-color: green;}
 }
